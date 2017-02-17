@@ -52,3 +52,11 @@ body, html {
 #dinner {
   background-image: url("../assets/foodtop/dinner.jpg");
 }
+
+#about {
+  padding: 6% 12%;
+}
+
+#about h1 {
+  text-transform: capitalize;
+}
