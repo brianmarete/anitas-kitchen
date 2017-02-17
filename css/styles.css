@@ -29,7 +29,7 @@ nav ul li a {
 .navbar-toggle {
   position: fixed;
   top: 100px;
-  left: 150px;
+  left: 120px;
   width: 45px;
   height: 45px;
   z-index: 20;
@@ -91,6 +91,31 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   min-height: 180px;
+  text-transform: capitalize;
+}
+
+#time {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+#party-time, #happy-hour {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#happy-hour {
+  background-color: #eee;
+}
+
+#party-time {
+
+  color: #fff;
+  background-color: #F15A29;
 }
 
 #breakfast, #lunch, #dinner {
