@@ -54,9 +54,45 @@ body, html {
 }
 
 #about {
+  min-width: 100%;
   padding: 6% 12%;
 }
 
 #about h1 {
   text-transform: capitalize;
+}
+
+#about button {
+  text-transform: uppercase;
+}
+
+#drinks {
+  display: flex;
+  flex-direction: row;
+}
+
+#drinks-text {
+  text-align: right;
+}
+
+#drinks-text, #fast-food-text {
+  padding: 50px;
+}
+
+.picture-box {
+  padding: 5px;
+  box-shadow: 0px 0px 25px 3px #aaa;
+  width: 500px;
+}
+
+#fast-food img {
+  width: 100%;
+}
+
+#drinks img {
+  width: 100%;
+}
+
+#about .row {
+  margin: 40px 0px;
 }
