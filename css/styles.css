@@ -183,3 +183,30 @@ nav ul li a {
   justify-content: center;
   align-items: center;
 }
+
+#subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  color: #fff;
+}
+
+#subscribe form input {
+  margin-right: 20px;
+  opacity: 0.4;
+}
+
+#footer {
+  min-width: 100%;
+  height: 300px;
+  background-color: #F15A29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
