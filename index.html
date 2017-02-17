@@ -12,42 +12,122 @@
 </head>
 
 <body>
+
   <div id="hero">
     <img src="assets/logoBig.png" alt="logo" id="logo">
     <div id="tag-line">
-      <p>we provide the best food at the right price</p>
+      <p>we provide the best food at the <strong>right price</strong></p>
     </div>
   </div>
-  <div id="meals">
+  <div class="container" id="meals">
     <div class="row">
       <div class="box col-md-3">
 
       </div>
       <div class="box col-md-3" id="breakfast">
-
+        <p>breakfast</p>
       </div>
       <div class="box col-md-3" id="lunch">
-
+        <p>lunch</p>
       </div>
       <div class="box col-md-3" id="dinner">
-
+        <p>dinner</p>
       </div>
     </div>
   </div>
-  <div id="about">
-
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <h1>fast food</h1>
+        <h3>You'll love our delicious fast food</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button type="button" class="btn btn-outline-warning">view gallery</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Drinks</h1>
+        <h3>We also produce delicious drinks</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button type="button" class="btn btn-outline-warning">view gallery</button>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
   </div>
-  <div id="foods">
+  <div class="container" id="foods">
+    <div class="row">
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#fast-food" role="tab">Fast Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#drinks" role="tab">Drinks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#chicken" role="tab">Chicken</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#rice" role="tab">Rice</a>
+        </li>
+      </ul>
 
+      <div class="tab-content">
+        <div class="tab-pane active" id="fast-food" role="tabpanel">
+          <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+          <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+          <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+        </div>
+        <div class="tab-pane" id="drinks" role="tabpanel">...</div>
+        <div class="tab-pane" id="chicken" role="tabpanel">...</div>
+        <div class="tab-pane" id="rice" role="tabpanel">...</div>
+      </div>
+    </div>
   </div>
-  <div id="customers">
-
+  <div class="container" id="customers">
+    <div class="row">
+      <div class="customer-container">
+        <div id="customer-box">
+          <h1>Our Happy Customers</h1>
+          <p><strong>George Richard</strong></p>
+          <p>Great food! Menu is awesome, their foods are not only great but also at the right price. I highly recommend them :)</p>
+          <ul class="list-unstyled">
+            <li><img src="assets/customers/p1.png" alt="person 1"></li>
+            <li><img src="assets/customers/p2.png" alt="person 2"></li>
+            <li><img src="assets/customers/p3.png" alt="person 3"></li>
+          </ul>
+        </div>
+        <div id="about-menu">
+          <h1>About Menu</h1>
+          <p>We are a small team of 7 members. Fugit culpa ratione possimus facilis cupiditate at impedit asperiores nemo, temporibus architecto corrupti repellendus ipsam sunt, sapiente, a aliquam error magni! Debitis?</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="subscribe">
-
+  <div class="container" id="subscribe">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Get our daily food items delivered to your email</p>
+        <form class="form-inline">
+          <input type="text" class="form-control" placeholder="Your email">
+          <button type="button" class="btn btn-warning">Subscribe</button>
+        </form>
+      </div>
+    </div>
   </div>
   <div id="footer">
-
+    <p>
+      <img src="assets/footerlogos/logo_white.png" alt="logo"> menu
+    </p>
+    <p>That's what we are</p>
+    <ul class="list-unstyled">
+      <li><img src="assets/footerlogos/facebook.png" alt="facebook"></li>
+      <li><img src="assets/footerlogos/twitter.png" alt="twitter"></li>
+      <li><img src="assets/footerlogos/pinterest.png" alt="pinterest"></li>
+    </ul>
+    <p>2016 Menu Restaurant</p>
   </div>
 
   <script src="js/jquery-3.1.1.js" charset="utf-8"></script>
