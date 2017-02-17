@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+}
+
+#hero {
+  background-image: url("../assets/backgrounds/landing.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tag-line {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+#meals {
+  min-height: 25%;
+}
+
+#breakfast {
+
+}
+
+#lunch {
+
+}
+
+#dinner {
+  
+}
