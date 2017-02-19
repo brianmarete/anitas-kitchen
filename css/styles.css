@@ -1,8 +1,11 @@
-body, html {
+body,
+html {
   height: 100%;
 }
 
+
 /* Full page menu made with help from http://www.jqueryscript.net/menu/Fullpage-Navigation-Menu-with-jQuery-CSS3-Fullscreen-Navbar.html*/
+
 nav {
   position: fixed;
   z-index: 10;
@@ -41,14 +44,18 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 100%;
   height: 2px;
   margin-bottom: 10px;
   background-color: #ddd;
 }
 
-.navbar-on .bar1, .navbar-on .bar2, .navbar-on .bar3 {
+.navbar-on .bar1,
+.navbar-on .bar2,
+.navbar-on .bar3 {
   background-color: white;
 }
 
@@ -84,7 +91,7 @@ nav ul li a:hover {
 }
 
 .container {
-    margin: 0px;
+  margin: 0px;
 }
 
 #meals {
@@ -105,12 +112,13 @@ nav ul li a:hover {
   padding: 0px;
 }
 
-#party-time, #happy-hour {
-  width: 100%;
-  height: 50%;
+#party-time,
+#happy-hour {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 50%;
 }
 
 #happy-hour {
@@ -118,12 +126,13 @@ nav ul li a:hover {
 }
 
 #party-time {
-
   color: #fff;
   background-color: #F15A29;
 }
 
-#breakfast, #lunch, #dinner {
+#breakfast,
+#lunch,
+#dinner {
   color: #fff;
   background-repeat: no-repeat;
   text-transform: capitalize;
@@ -131,6 +140,13 @@ nav ul li a:hover {
 
 #breakfast {
   background-image: url("../assets/foodtop/breakfast.jpg");
+}
+
+#breakfast:hover,
+#lunch:hover,
+#dinner:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 #lunch {
@@ -163,7 +179,8 @@ nav ul li a:hover {
   text-align: right;
 }
 
-#drinks-text, #fast-food-text {
+#drinks-text,
+#fast-food-text {
   padding: 50px;
 }
 
@@ -179,7 +196,7 @@ nav ul li a:hover {
 
 #foods {
   min-width: 100%;
-  height: 400px;
+  height: 500px;
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-size: cover;
   background-position: center center;
@@ -187,6 +204,21 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#foods .row {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+#foods .tab-content {
+  padding: 20px;
+}
+
+#foods i {
+  margin: 0px 20px;
 }
 
 #subscribe {
@@ -214,4 +246,8 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+i {
+  color: #F15A29;
 }
