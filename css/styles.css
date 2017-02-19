@@ -210,15 +210,22 @@ nav ul li a:hover {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 10px 20px;
+  /*    padding: 10px 20px;*/
 }
 
 #foods .tab-content {
-  padding: 20px;
+  padding: 10px;
 }
 
-#foods i {
-  margin: 0px 20px;
+.tab-item {
+  text-align: center;
+  color: #F15A29;
+  display: inline-table;
+  margin: 10px;
+}
+
+.tab-item p {
+  margin-top: 10px;
 }
 
 #subscribe {
