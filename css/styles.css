@@ -147,6 +147,15 @@ nav ul li a:hover {
 #lunch:hover {
   color: #000;
   background-color: #fff;
+  opacity: 0.5;
+}
+
+#breakfast:hover p,
+#dinner:hover p,
+#lunch:hover p,
+{
+  color: black;
+  opacity: 1;
 }
 
 #lunch {
