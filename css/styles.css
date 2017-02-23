@@ -38,38 +38,37 @@ nav ul li a:hover {
   position: fixed;
   top: 100px;
   left: 120px;
-  width: 45px;
+  width: 50px;
   height: 45px;
   z-index: 20;
   cursor: pointer;
+  border-radius: 5px;
 }
 
-.bar1,
-.bar2,
-.bar3 {
-  width: 100%;
-  height: 2px;
-  margin-bottom: 10px;
-  background-color: #ddd;
+.bar {
+  /*  position: relative;*/
+  background-color: aliceblue;
+  display: block;
+  width: 90%;
+  height: 3px;
+  margin: 10px auto;
 }
 
-.navbar-on .bar1,
-.navbar-on .bar2,
-.navbar-on .bar3 {
+.navbar-on .bar {
   background-color: white;
 }
 
-.navbar-on .bar1 {
-  transform-origin: 10% 40%;
+.navbar-on #bar1 {
+  transform-origin: 10% 50%;
   transform: rotate(45deg);
 }
 
-.navbar-on .bar3 {
-  transform-origin: 10% 40%;
+.navbar-on #bar3 {
+  transform-origin: 10% 50%;
   transform: rotate(-45deg);
 }
 
-.navbar-on .bar2 {
+.navbar-on #bar2 {
   background-color: transparent;
 }
 
